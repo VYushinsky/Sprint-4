@@ -67,9 +67,3 @@ class SnilsValidator : Validator<String>() {
         return listOf()
     }
 }
-
-fun main(){
-    val a = SnilsValidator()
-    println(a.validate(""))
-}
-
