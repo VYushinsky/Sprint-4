@@ -43,6 +43,6 @@ class GenericsTest {
         stack.push(5)
         stack.push(3)
         assertEquals(3, stack.peek())
-        assertEquals(2,stack.size())
+        assertEquals(2, stack.size())
     }
 }
